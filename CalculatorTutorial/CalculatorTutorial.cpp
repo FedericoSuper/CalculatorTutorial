@@ -4,7 +4,7 @@
 #include <iostream>
 #include "Calculator.h"
 
-using namespace std; // Senza questa riga, ogni parola chiave proveniente dalla libreria dovrà essere preceduta da std::
+using namespace std; // Senza questa riga, ogni parola chiave proveniente dalla libreria dovrï¿½ essere preceduta da std::
 
 int main()
 {
@@ -13,13 +13,13 @@ int main()
     double result = 0.0;
     char oper = '+';
 
-    cout << "Calculator Console Application\n\n"; // << indica al compilatore di inviare tutto ciò che si trova alla sua destra all'output standard
+    cout << "Calculator Console Application\n\n"; // << indica al compilatore di inviare tutto ciï¿½ che si trova alla sua destra all'output standard
     cout << "Please enter the operation to perform. Format: a+b | a-b | a*b | a/b" << endl; // endl e \n hanno la stessa funzione
 
     Calculator c;
     while (true)
     {
-        cin >> x >> oper >> y; // La parola chiave cin viene usata per accettare l'input da parte dell'utente. è in grado di elaborare una riga di testo immessa nella finestra della console 
+        cin >> x >> oper >> y; // La parola chiave cin viene usata per accettare l'input da parte dell'utente. ï¿½ in grado di elaborare una riga di testo immessa nella finestra della console 
                                //di inserirla all'interno di ogni variabile specificata, in ordine, presupponendo che l'input dell'utente corrisponda alla specifica richiesta
         if (oper == '/' && y == 0)
         {
@@ -28,7 +28,7 @@ int main()
         }
         else 
         {
-            result = c.Calculate(x, oper, y);
+            result = c.Calculate(x, oper, y); //calcolo
         }
        
         cout << "Result is: " << result << endl;
