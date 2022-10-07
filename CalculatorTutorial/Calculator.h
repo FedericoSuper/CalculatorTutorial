@@ -1,6 +1,6 @@
 #pragma once
 
-// file .h è file di intestazione
+// file .h è file di intestazione.
 
 class Calculator
 {
