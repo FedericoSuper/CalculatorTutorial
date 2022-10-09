@@ -8,7 +8,7 @@ using namespace std; // Senza questa riga, ogni parola chiave proveniente dalla 
 
 int main()
 {
-    double x = 0.0;
+    double x = 0.0; //primo membro
     double y = 0.0;
     double result = 0.0;
     char oper = '+';
