@@ -28,7 +28,7 @@ int main()
         }
         else 
         {
-            result = c.Calculate(x, oper, y); //calcolo
+            result = c.Calculate(x, oper, y); //calcolo.
         }
        
         cout << "Result is: " << result << endl;
