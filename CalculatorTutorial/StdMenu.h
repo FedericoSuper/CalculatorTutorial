@@ -17,7 +17,6 @@ std::string voci;
 public:
 void stampaMenu(); //dichiaro una funzione
 int scegli();
-StdMenu();
 int leggiIntero(string RICHIESTA_INSERIMENTO);
 
 };

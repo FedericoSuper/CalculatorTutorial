@@ -34,7 +34,12 @@ void StdMenu::stampaMenu ()
 	return ;	 
 }
 
-int StdMenu::leggiIntero(RICHIESTA_INSERIMENTO){
+  int StdMenu::leggiIntero(string RICHIESTA_INSERIMENTO)
+  {
+	  return 0;
+  }
+
+int StdMenu::leggiIntero(string RICHIESTA_INSERIMENTO){
     string line;
     int d = 0;
 
