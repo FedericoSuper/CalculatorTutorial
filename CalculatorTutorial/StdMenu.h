@@ -3,6 +3,7 @@
 #include <iostream>
 
 // file .h è file di intestazione.
+using std::string;
 
 class StdMenu{
 
@@ -17,6 +18,6 @@ public:
 void stampaMenu(); //dichiaro una funzione
 int scegli();
 StdMenu();
-int leggiIntero(string &str);
+int leggiIntero(string RICHIESTA_INSERIMENTO);
 
 };
