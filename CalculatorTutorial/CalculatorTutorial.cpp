@@ -3,11 +3,16 @@
 
 #include <iostream>
 #include "Calculator.h"
+#include "StdMenu.h"
 
 using namespace std; // Senza questa riga, ogni parola chiave proveniente dalla libreria dovr� essere preceduta da std::
 
+const std::string SALUTO = "Benvenuto nel programma Calcolatrice!";
+
+
 int main()
 {
+    saluta();
     double x = 0.0; //primo membro
     double y = 0.0;
     double result = 0.0;
@@ -35,6 +40,10 @@ int main()
     }
 
     return 0;
+}
+
+void saluta() {
+    cout<<SALUTO;
 }
 
 // Per eseguire il programma: CTRL+F5 oppure Debug > Avvia senza eseguire debug
