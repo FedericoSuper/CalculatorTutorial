@@ -8,15 +8,17 @@ using std::string;
 class StdMenu{
 
 private:
-static const std::string CORNICE;
-static const std::string VOCE_USCITA;
-static const std::string RICHIESTA_INSERIMENTO;
 std::string titolo;
 std::string voci;
 
 public:
+static const string CORNICE;
+static const string VOCE_USCITA;
+static const string RICHIESTA_INSERIMENTO;
+static const string ERRORE_FORMATO;
+
 void stampaMenu(); //dichiaro una funzione
 int scegli();
-int leggiIntero(string RICHIESTA_INSERIMENTO);
+int leggiIntero();
 
 };
