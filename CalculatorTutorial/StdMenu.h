@@ -7,15 +7,13 @@ using std::string;
 
 class StdMenu{
 
-private:
-std::string titolo;
-std::string voci;
-
 public:
-static const string CORNICE;
-static const string VOCE_USCITA;
-static const string RICHIESTA_INSERIMENTO;
-static const string ERRORE_FORMATO;
+string titolo;
+string voci;
+string CORNICE;
+string VOCE_USCITA;
+string RICHIESTA_INSERIMENTO;
+string ERRORE_FORMATO;
 
 void stampaMenu(); //dichiaro una funzione
 int scegli();

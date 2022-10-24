@@ -13,6 +13,9 @@ int main()
     double y = 0.0;
     double result = 0.0;
     char oper = '+';
+    StdMenu menu;
+    //int scelta;
+    menu.stampaMenu();
 
     cout << "Calculator Console Application\n\n"; // << indica al compilatore di inviare tutto ci� che si trova alla sua destra all'output standard
     cout << "Please enter the operation to perform. Format: a+b | a-b | a*b | a/b" << endl; // endl e \n hanno la stessa funzione
